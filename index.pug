@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+html
+head
+    meta(charset="UTF-8")
+    title Cooper
+    link(rel="stylesheet", href="styles/styles.css")
+    link(rel="stylesheet", href="styles/font-awesome.min.css")
+body
+    content
+        .promo
+            .promo-text
+                h3.promo-text__subheading Feel The Excitement
+                h1.promo-text__heading Get Ready
+                h3.promo-text__subheading We Are Comming Soon!
+            .promo-counter
+                .promo-counter__timer
+                    span.promo-counter__unit 1
+                    span.promo-counter__unit 2
+                    br
+                    span.promo-counter__name Days
+                .promo-counter__timer
+                    span.promo-counter__unit 0
+                    span.promo-counter__unit 8
+                    br
+                    span.promo-counter__name Hours
+                .promo-counter__timer
+                    span.promo-counter__unit 5
+                    span.promo-counter__unit 2
+                    br
+                    span.promo-counter__name Min
+        .join-section
+            .join-section__header Want To Join Us?
+            .join-section__form
+                form(method="get" action="")
+                    input(type="text" name="name" placeholder="Your name" autocomplete)
+                    input(type="email" name="email" placeholder="Your email" autocomplete)
+                    textarea(name="text" placeholder="Your message" maxlength="50")
+                    input(type="submit" value="Submit")
+        .adress
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            | 185 Greenwich High Road
+            br
+            | London SE10 8JA
+            br
+            | United Kingdom 
+            br
+            | 0044 987654321
+        .subscribe
+            a.twiter(href="https://twitter.com")
+                <i class="fa fa-3x fa-twitter" aria-hidden="true"></i>
+            a.skype(href="https://skype.com")
+                <i class="fa fa-3x fa-skype" aria-hidden="true"></i>
+            a.p(href="https://ru.pinterest.com/")
+                <i class="fa fa-3x fa-pinterest-p" aria-hidden="true"></i>
+        .map
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=icIDvf3MgYTG3oipacq0ULCVd9H2XLqg&amp;width=100%&amp;height=250&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>

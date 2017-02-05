@@ -1,0 +1,157 @@
+@font-face {
+  font-family: Canter;
+  src: url("../fonts/CanterBold.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  background: url("../images/body-bg.png") no-repeat;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  height: 2200px;
+}
+content {
+  background: url("../images/content-bg.png") #f2eee2 no-repeat;
+  margin: auto;
+  max-width: 80%;
+  background-size: 100%;
+}
+/* -------------------------------------------------- */
+.promo {
+  width: 45%;
+  margin-left: 50%;
+  margin-top: 20%;
+  text-align: center;
+  color: #fff;
+  font-family: Canter, Cambria, Times New Roman, serif;
+  text-transform: uppercase;
+  margin-bottom: 17%;
+}
+.promo-text__heading {
+  font-size: 10vw;
+  margin-top: -10px;
+}
+.promo-text__subheading {
+  font-size: 5vw;
+}
+.promo-counter {
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+.promo-counter__timer {
+  margin: 0 1vw;
+}
+.promo-counter__unit {
+  padding: 1vw;
+  background: url("../images/unit-bg.png") no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.promo-counter__name {
+  font-size: 2vw;
+}
+/* -------------------------------------------------- */
+.join-section {
+  text-align: center;
+  font-size: 4vw;
+  color: #7d7d7a;
+  font-family: Canter, Cambria, Times New Roman, serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.join-section__header {
+  width: 100%;
+  display: block;
+  margin-bottom: 5%;
+}
+.join-section__form {
+  width: 40%;
+}
+.join-section__form form {
+  width: 100%;
+  background: url("../images/form-bg.png") no-repeat;
+  padding: 7% 10%;
+  box-sizing: border-box;
+}
+.join-section__form input[type=text],
+.join-section__form input[type=email],
+.join-section__form textarea {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.3vw;
+  border: none;
+  border-left: 1px solid #fcc;
+}
+.join-section__form input[type=text],
+.join-section__form input[type=email] {
+  width: 48.5%;
+  margin-bottom: 5%;
+}
+.join-section__form input[type=email] {
+  float: right;
+}
+.join-section__form input[type=text] {
+  float: left;
+}
+.join-section__form textarea {
+  width: 100%;
+  background: transparent;
+  height: 10vh;
+}
+.join-section__form input[type=submit] {
+  background: none;
+  border: none;
+  font-size: 3vw;
+  color: #555;
+  font-family: Canter, Cambria, Times New Roman, serif;
+  cursor: pointer;
+}
+.adress {
+  text-align: center;
+  margin: 5% 0;
+  font-size: 1.3vw;
+  line-height: 2vw;
+  color: #222;
+  font-family: Times New Roman, serif;
+}
+.adress i {
+  font-size: 1.3vw;
+  margin-right: 7px;
+}
+.subscribe {
+  text-align: center;
+  padding-bottom: 5%;
+}
+.subscribe a {
+  width: 5%;
+  height: 5%;
+  line-height: 5%;
+  margin: 0 25px;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.3vw;
+}
+.subscribe .map {
+  display: block;
+}
+@media screen and (max-device-width: 425px) {
+  .adress {
+    font-size: 0.8vw;
+    line-height: 1.1vw;
+  }
+  .adress i {
+    margin-right: 10px;
+    font-size: 0.8vw;
+  }
+}
